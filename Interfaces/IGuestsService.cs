@@ -28,5 +28,8 @@ namespace GuestsShared.Interfaces
 
         [OperationContract]
         void AddNewGuest(GuestModel newGuestModel);
+
+        [OperationContract]
+        void MarkHouseholdAsInvited(Guid householdId);
     }
 }
